@@ -27,7 +27,7 @@ if not st.session_state.started:
         st.session_state.started = True
         st.session_state.start_time = datetime.now()
         if music_on:
-            st.audio("https://vgmsite.com/soundtracks/legend-of-zu/ykrprrtd/01%20-%20Main%20Title.mp3", format="audio/mp3", start_time=0)
+            st.audio("https://youtu.be/15Ow9TEkiXY", format="audio/mp3", start_time=0)
         st.experimental_rerun()
     st.stop()
 
